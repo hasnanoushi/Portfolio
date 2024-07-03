@@ -50,7 +50,7 @@ function Projects() {
          <a href="https://github.com/hasnanoushi/Hospital-website" className='links'>Github Repository</a><br/>
          <a href=" https://hospital-website-ecru.vercel.app/" className='links'>See the deployed Site</a>
         </div>
-
+<br/>
       </div>
       </AnimatedSentence>
       
