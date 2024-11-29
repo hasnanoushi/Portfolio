@@ -13,26 +13,26 @@
   color: #333;
   line-height: 40px;
   font-weight: 500;
-  word-wrap: break-word; /* Ensure long words wrap correctly */
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 500px) {
   .about {
     height: 130vh;
-    width: 90%; /* Increase the width for smaller screens */
+    width: 90%;
   }
 
   .aboutsentence {
-    font-size: 18px; /* Reduce font size on smaller screens */
-    width: 100%; /* Make text container full width on small screens */
-    padding: 0 10px; /* Add some padding to prevent text from touching the edges */
+    font-size: 18px;
+    width: 100%;
+    padding: 0 10px;
   }
 
   .aboutsentence p {
-    word-wrap: break-word; /* Ensure long words break for mobile screens */
+    word-wrap: break-word;
   }
 
   .aboutsentence svg {
-    margin-right: 10px; /* Add spacing between icons and text */
+    margin-right: 10px;
   }
 }
