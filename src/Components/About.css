@@ -1,22 +1,38 @@
-.about{
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    background-color: #57aa57;
-    height: 85vh; 
+.about {
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  background-color: #57aa57;
+  height: 85vh;
 }
 
-.aboutsentence{
-    font-size: 25px;
-    width: 80%; 
-    margin: auto;
-    color: #333;
-    line-height: 40px;
-    font-weight:500 ;
+.aboutsentence {
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+  color: #333;
+  line-height: 40px;
+  font-weight: 500;
+  word-wrap: break-word; /* Ensure long words wrap correctly */
 }
 
-@media screen and (max-width:500px){
-    .about{
-        height: 130vh;
-    }
+@media screen and (max-width: 500px) {
+  .about {
+    height: 130vh;
+    width: 90%; /* Increase the width for smaller screens */
+  }
+
+  .aboutsentence {
+    font-size: 18px; /* Reduce font size on smaller screens */
+    width: 100%; /* Make text container full width on small screens */
+    padding: 0 10px; /* Add some padding to prevent text from touching the edges */
+  }
+
+  .aboutsentence p {
+    word-wrap: break-word; /* Ensure long words break for mobile screens */
+  }
+
+  .aboutsentence svg {
+    margin-right: 10px; /* Add spacing between icons and text */
+  }
 }
