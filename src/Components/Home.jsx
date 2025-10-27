@@ -36,7 +36,7 @@ function Home() {
 
       <div className="imgDiv">
         <div className="imgFit">
-          <img src={image} alt="Image" className="photo" />
+          <img src={image} alt="hasna" className="photo" />
         </div>
         <div>
           <ul>

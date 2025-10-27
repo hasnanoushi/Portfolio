@@ -5,7 +5,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
-import { SiC, SiFigma, SiMongodb, SiMui, SiNextdotjs, SiPostman, SiRedux, SiSass, SiTailwindcss, SiTypescript } from "react-icons/si";
+import {  SiMui, SiNextdotjs, SiPostman, SiRedux, SiSass, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa6";
 import AnimatedSentence from './AnimatedSentence';
 function Skills() {
