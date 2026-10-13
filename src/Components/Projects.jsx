@@ -29,7 +29,12 @@ function Projects() {
           <div className="secondProject ">
             <h1>Hospital Website</h1>
             <ul>
-              <li>A website that mimics a hospital's website using ReactJS</li>
+              <li>
+                A website that mimics a hospital's website using ReactJS. It
+                features a clean, responsive layout with reusable components
+                and client-side routing, presenting the hospital's services,
+                departments and contact details in an easy-to-navigate way.
+              </li>
             </ul>
             <a
               href="https://github.com/hasnanoushi/Hospital-website"

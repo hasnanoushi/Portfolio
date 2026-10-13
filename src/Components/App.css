@@ -6,7 +6,9 @@
 
 .App{
     /* height: 130vh; */
-    background-color:#57aa57                                                                            
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color:#54a654                                                                            
 }
 
 /* @media screen and (max-width:500px){

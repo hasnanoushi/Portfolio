@@ -46,17 +46,21 @@
     text-decoration: none;
     padding: 10px;
     font-size: large;
+    border-radius: 10px;
+    transition: background-color 0.25s;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.navLinks:hover{
-    background-color: #FFD966;
-    /* color: black; */
-    border-radius: 10px;
+.navLinks:hover,
+.navLinks:focus{
+    background-color: #469346;
+    outline: none;
 }
 
 .navLinks.active{
     /* text-decoration: underline 5px; */
     color: #333;
+    background-color: #469346;
     border-radius: 10px;
     
 }
@@ -67,6 +71,17 @@
     }
     .navParent{
         width: 95%;
+    }
+    .portNav{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .navParent .portNav{
+        padding: 10px 0;
+    }
+    .navLinks{
+        font-size: 16px;
+        padding: 8px;
     }
   
 }

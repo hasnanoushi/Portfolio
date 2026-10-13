@@ -12,7 +12,7 @@ span{
 
 @media screen and (max-width:470px) {
     span{
-        font-size: 2rem;
+        font-size: min(2rem, 6.5vw);
     }
 }
 

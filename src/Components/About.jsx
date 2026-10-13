@@ -19,13 +19,16 @@ function About() {
         <AnimatedSentence>
           <br />
           <br />
-          <p className="aboutsentence" style={{ marginBottom: 0 }}>
-            <MdMail />
-            hasnanoushi66@gmail.com
-            <br />
-            <FaPhoneAlt />
-            +919746230887
-          </p>
+          <div className="contactList">
+            <p className="contactItem">
+              <MdMail className="contactIcon" />
+              <span className="contactText">hasnanoushi****@gmail.com</span>
+            </p>
+            <p className="contactItem">
+              <FaPhoneAlt className="contactIcon" />
+              <span className="contactText">+919746******</span>
+            </p>
+          </div>
         </AnimatedSentence>
       </div>
     </div>

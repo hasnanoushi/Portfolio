@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 
-import image from "../Assets/hasn.jpeg";
+import image from "../Assets/hasna.png";
 import TextSpan from "./TextSpan";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";

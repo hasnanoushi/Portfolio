@@ -1,38 +1,76 @@
 .about {
   width: 80%;
+  max-width: 1000px;
   margin: auto;
-  padding-top: 50px;
-  background-color: #57aa57;
-  height: 85vh;
+  padding: 50px 0;
+  background-color: #54a654;
+  min-height: 85vh;
+  box-sizing: border-box;
 }
 
 .aboutsentence {
-  font-size: 25px;
-  width: 80%;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.3rem, 3.2vw, 2rem);
+  font-style: italic;
+  width: 85%;
   margin: auto;
-  color: #333;
-  line-height: 40px;
+  color: #2b2b2b;
+  line-height: 1.6;
   font-weight: 500;
-  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+.contactList {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  font-weight: 500;
+  color: #2b2b2b;
+  letter-spacing: 0.3px;
+}
+
+.contactIcon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.contactItem .contactText {
+  display: inline;
+  font-size: inherit;
+  font-weight: inherit;
+  overflow-wrap: anywhere;
 }
 
 @media screen and (max-width: 500px) {
   .about {
-    height: 130vh;
     width: 90%;
+    padding-top: 30px;
   }
 
-  .aboutsentence {
-    font-size: 18px;
+  .aboutsentence,
+  .contactList {
     width: 100%;
-    padding: 0 10px;
   }
 
-  .aboutsentence p {
-    word-wrap: break-word;
-  }
-
-  .aboutsentence svg {
-    margin-right: 10px;
+  .contactIcon {
+    width: 36px;
+    height: 36px;
+    padding: 8px;
   }
 }
